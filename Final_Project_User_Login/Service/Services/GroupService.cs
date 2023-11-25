@@ -27,9 +27,14 @@ namespace Service.Services
             _groupRepo.Delete(group);
         }
 
+        public void Edit(Group group)
+        {
+            // throw new NotImplementedException();
+        }
+
         public List<Group> GetAll()
         {
-            //return _groupRepo.GetAll();
+            return _groupRepo.GetAll();
         }
 
         public Group GetById(int id)
