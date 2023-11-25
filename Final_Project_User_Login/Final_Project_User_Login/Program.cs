@@ -22,7 +22,7 @@ static void Menus()
             switch (operation)
             {
                 case (int)OperationTypes.GroupCreate:
-                    studentController.Create();
+                    Console.WriteLine("group create");
                     break;
                 case (int)OperationTypes.GroupDelete:
                     Console.WriteLine("del");
@@ -43,10 +43,10 @@ static void Menus()
                     Console.WriteLine("sorting");
                     break;
                 case (int)OperationTypes.StudentCreate:
-                    Console.WriteLine("Create student");
+                    studentController.Create();
                     break;
                 case (int)OperationTypes.StudentDelete:
-                    Console.WriteLine("del");
+                    studentController.Delete();
                     break;
                 case (int)OperationTypes.StudentEdit:
                     Console.WriteLine("edit");
@@ -55,7 +55,7 @@ static void Menus()
                     Console.WriteLine("getbyid");
                     break;
                 case (int)OperationTypes.StudentGetAll:
-                    Console.WriteLine("getall");
+                    studentController.GetAll();
                     break;
                 case (int)OperationTypes.StudentFilter:
                     Console.WriteLine("filter");
@@ -78,3 +78,5 @@ static void GetMenu()
     Console.WriteLine("Welcome to our application");
     Console.WriteLine("Please select one option: Group operations: 1-Create, 2-Delete, 3-Edit, 4-GetById, 5-GetAll, 6-Search, 7-Sorting | Student operations : 8-Create, 9-Delete, 10- Edit, 11-GetById, 12-GetAll, 13 - Filter, 14 - Search");
 }
+
+Menus();

@@ -11,14 +11,15 @@ namespace Service.Services
 {
     public class UserService : IUserService
     {
-        List<User> LoginIn(string name, string surname, string email, int age, string password)
-        {
-            return null;
-        }
 
         public void SignUp(string name, string surname, string email, int age, string password, string confrimpassword)
         {
             DbContext<User>.Datas.Add(new User { Name = name, Age = age, Password = password, ConfirmPassword= confrimpassword, Email = email });
+        }
+
+        List<User> IUserService.LoginIn(string name, string surname, string email, int age, string password)
+        {
+            throw new NotImplementedException();
         }
     }
 }
