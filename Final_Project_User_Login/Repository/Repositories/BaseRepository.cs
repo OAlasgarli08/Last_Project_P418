@@ -11,9 +11,13 @@ namespace Repository.Repositories
 {
     public class BaseRepository<T> : IBaseRepositroy<T> where T : BaseEntity
     {
+        private static int _id = 1;
+
         public void Create(T entity)
         {
+            entity.Id = _id;
             DbContext<T>.Datas.Add(entity);
+            _id++;
         }
 
         public void Delete(T entity)
@@ -26,7 +30,7 @@ namespace Repository.Repositories
             throw new NotImplementedException();
         }
 
-        public List<T> GetAll(T entity)
+        public List<T> GetAll()
         {
             return DbContext<T>.Datas.ToList();
         }

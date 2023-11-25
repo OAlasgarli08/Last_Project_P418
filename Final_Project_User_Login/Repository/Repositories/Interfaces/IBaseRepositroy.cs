@@ -13,6 +13,6 @@ namespace Repository.Repositories.Interfaces
         void Delete(T entity);
         void Edit(T entity);
         T GetById(int id);
-        List<T> GetAll(T entity);
+        List<T> GetAll();
     }
 }

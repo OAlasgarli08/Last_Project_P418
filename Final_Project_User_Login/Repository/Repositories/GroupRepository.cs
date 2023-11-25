@@ -16,7 +16,7 @@ namespace Repository.Repositories
             return (Group)DbContext<Group>.Datas.Where(m => m.Name == name);
         }
 
-        public List<Group> Sort(string capacity)
+        public List<Group> Sort(int capacity)
         {
             return DbContext<Group>.Datas.OrderBy(m => m.Capacity).ToList();
         }

@@ -9,7 +9,7 @@ namespace Repository.Repositories.Interfaces
 {
     public interface IGroupRepository : IBaseRepositroy<Group>
     {
-        List<Group> Sort(string capacity);
+        List<Group> Sort(int capacity);
         Group Search(string name);
     }
 }
