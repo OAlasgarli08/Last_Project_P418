@@ -1,0 +1,17 @@
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\bin\Debug\net6.0\Service.dll
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\bin\Debug\net6.0\Domain.dll
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\bin\Debug\net6.0\Repository.dll
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\bin\Debug\net6.0\Repository.pdb
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\bin\Debug\net6.0\Domain.pdb
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\obj\Debug\net6.0\Service.dll
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\Omarta\Desktop\Last_Project_P418\Final_Project_User_Login\Service\obj\Debug\net6.0\ref\Service.dll

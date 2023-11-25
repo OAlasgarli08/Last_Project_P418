@@ -20,8 +20,7 @@ namespace Service.Enums
         StudentEdit,
         StudentGetById,
         StudentGetAll,
-        StudentFilter
+        StudentFilter,
         StudentSearch,
-
     }
 }

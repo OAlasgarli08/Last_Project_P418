@@ -1,42 +1,80 @@
-﻿using Service.Enums;
+﻿using Final_Project_User_Login.Controllers;
+using Service.Enums;
+using Service.Helpers.Exceptions;
 using System.Buffers;
 
-while (true) 
+StudentController studentController = new StudentController();
+
+
+static void Menus() 
 {
-    GetMenu();
-
-    Operation:  string operationStr = Console.ReadLine();
-    int operation;
-    bool isCorrectOperation = int.TryParse(operationStr, out operation);
-
-    if (isCorrectOperation)
+    StudentController studentController = new StudentController();
+    while (true)
     {
-        switch (operation) 
+        GetMenu();
+
+    Operation: string operationStr = Console.ReadLine();
+        int operation;
+        bool isCorrectOperation = int.TryParse(operationStr, out operation);
+
+        if (isCorrectOperation)
         {
-            case (int)OperationTypes.GroupCreate:
-                Console.WriteLine("Create group");
-                break;
-            case (int)OperationTypes.GroupDelete:
-                Console.WriteLine("del");
-                break;
-            case (int)
-
-
-        }          
+            switch (operation)
+            {
+                case (int)OperationTypes.GroupCreate:
+                    studentController.Create();
+                    break;
+                case (int)OperationTypes.GroupDelete:
+                    Console.WriteLine("del");
+                    break;
+                case (int)OperationTypes.GroupEdit:
+                    Console.WriteLine("edit");
+                    break;
+                case (int)OperationTypes.GroupGetById:
+                    Console.WriteLine("getbyid");
+                    break;
+                case (int)OperationTypes.GroupGetAll:
+                    Console.WriteLine("getall");
+                    break;
+                case (int)OperationTypes.GroupSearch:
+                    Console.WriteLine("search");
+                    break;
+                case (int)OperationTypes.GroupSorting:
+                    Console.WriteLine("sorting");
+                    break;
+                case (int)OperationTypes.StudentCreate:
+                    Console.WriteLine("Create student");
+                    break;
+                case (int)OperationTypes.StudentDelete:
+                    Console.WriteLine("del");
+                    break;
+                case (int)OperationTypes.StudentEdit:
+                    Console.WriteLine("edit");
+                    break;
+                case (int)OperationTypes.StudentGetById:
+                    Console.WriteLine("getbyid");
+                    break;
+                case (int)OperationTypes.StudentGetAll:
+                    Console.WriteLine("getall");
+                    break;
+                case (int)OperationTypes.StudentFilter:
+                    Console.WriteLine("filter");
+                    break;
+                case (int)OperationTypes.StudentSearch:
+                    Console.WriteLine("search");
+                    break;
+            }
+        }
+        else
+        {
+            Console.WriteLine("Operation format is incorrect, try again! : ");
+            goto Operation;
+        }
     }
-    else
-    {
-        Console.WriteLine("Operation format is incorrect, try again! : ");
-        goto Operation;
-    }
-
 }    
 
 static void GetMenu()
 {
     Console.WriteLine("Welcome to our application");
     Console.WriteLine("Please select one option: Group operations: 1-Create, 2-Delete, 3-Edit, 4-GetById, 5-GetAll, 6-Search, 7-Sorting | Student operations : 8-Create, 9-Delete, 10- Edit, 11-GetById, 12-GetAll, 13 - Filter, 14 - Search");
-
-
-
 }

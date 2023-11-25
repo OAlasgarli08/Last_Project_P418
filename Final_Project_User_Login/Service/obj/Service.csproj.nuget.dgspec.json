@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Service\\Service.csproj": {}
+    "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Domain\\Domain.csproj": {
+    "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\alasg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Omarta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alasg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omarta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -55,36 +55,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Repository\\Repository.csproj": {
+    "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\alasg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Omarta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alasg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omarta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Domain\\Domain.csproj"
+              "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\Domain.csproj"
               }
             }
           }
@@ -96,8 +96,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -114,36 +114,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Service\\Service.csproj": {
+    "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\alasg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Service\\obj\\",
+        "projectPath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Omarta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alasg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omarta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Final Project\\Final_Project_User_Login\\Repository\\Repository.csproj"
+              "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Repository\\Repository.csproj"
               }
             }
           }
@@ -155,8 +155,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -173,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

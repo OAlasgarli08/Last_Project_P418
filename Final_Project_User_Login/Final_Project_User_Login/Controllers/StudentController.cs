@@ -18,7 +18,21 @@ namespace Final_Project_User_Login.Controllers
 
         public void Create()
         {
+            Console.WriteLine("Add your Full Name");
+            string name = Console.ReadLine();
 
+            Console.WriteLine("Add your Address");
+            string address = Console.ReadLine();
+
+            Console.WriteLine("Add your age");
+            int age = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Add your phone number");
+            string number = Console.ReadLine();
+        }
+        public void Delete()
+        {
+            Console.WriteLine();
         }
     }
 }
