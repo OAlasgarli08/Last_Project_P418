@@ -14,8 +14,11 @@ namespace Service.Services.Interfaces
         Group GetById(int id);
         List<Group> GetAll();
         Group Search(string name);
-        List<Group> Sort(int capacity);
-        void Edit(Group group);
-        
+        List<Group> Sort();
+        void Edit(int id, Group group);
+
+        Group GroupNameExist(string name);
+
+
     }
 }

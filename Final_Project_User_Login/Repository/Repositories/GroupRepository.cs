@@ -11,12 +11,31 @@ namespace Repository.Repositories
 {
     public class GroupRepository : BaseRepository<Group>, IGroupRepository
     {
-        public Group Search(string name)
+        public void Edit(int id, Group group)
         {
-            return (Group)DbContext<Group>.Datas.Where(m => m.Name == name);
+            Group existGroup = DbContext<Group>.Datas.FirstOrDefault(m => m.Id == id);
+            if (group.Name != null)
+            {
+                existGroup.Name = group.Name;
+            }
+            if (group.Capacity != null)
+            {
+                existGroup.Capacity = group.Capacity;
+            }
+            
         }
 
-        public List<Group> Sort(int capacity)
+        public Group GroupNameExist(string name)
+        {
+            return DbContext<Group>.Datas.FirstOrDefault(m => m.Name == name);
+        }
+
+        public Group Search(string name)
+        {
+            return DbContext<Group>.Datas.FirstOrDefault(m => m.Name == name);
+        }
+
+        public List<Group> Sort()
         {
             return DbContext<Group>.Datas.OrderBy(m => m.Capacity).ToList();
         }

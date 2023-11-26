@@ -25,10 +25,6 @@ namespace Repository.Repositories
             DbContext<T>.Datas.Remove(entity);
         }
 
-        public void Edit(T entity)
-        {
-            throw new NotImplementedException();
-        }
 
         public List<T> GetAll()
         {
@@ -37,7 +33,7 @@ namespace Repository.Repositories
 
         public T GetById(int id)
         {
-            return DbContext<T>.Datas.FirstOrDefault(d => d.Id == id);
+            return DbContext<T>.Datas.FirstOrDefault(d => d.Id == id);           
         }
     }
 }

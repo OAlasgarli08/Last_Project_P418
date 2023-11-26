@@ -17,9 +17,9 @@ namespace Service.Services
             DbContext<User>.Datas.Add(new User { Name = name, Age = age, Password = password, ConfirmPassword= confrimpassword, Email = email });
         }
 
-        List<User> IUserService.LoginIn(string name, string surname, string email, int age, string password)
+        List<User> IUserService.LoginIn(string email, string password)
         {
-            throw new NotImplementedException();
+            return null;
         }
     }
 }

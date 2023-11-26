@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "S8tw0oSobgiS25XWgHSHDpKYfOKGM/kLXOTI1XezouSxsQO10B3UjH2ZBF1Wn644TVwQWaK+qyaAObkkOyg4ag==",
+  "dgSpecHash": "8FFRnqPgo2CWhGaBpNivnmarP+BAKTsQATb7XpC71GgVloUQvzeGzRXGNiMfr9Pg1yTXJ+UKdO7Pe7nFp1zAbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Final_Project_User_Login\\Final_Project_User_Login.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Final_Project_User_Login\\Final_Project_User_Login.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alasg\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\alasg\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\alasg\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\alasg\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

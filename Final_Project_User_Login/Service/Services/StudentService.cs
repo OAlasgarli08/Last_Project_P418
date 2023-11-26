@@ -1,4 +1,5 @@
 ﻿using Domain.Models;
+using Repository.Datas;
 using Repository.Repositories;
 using Repository.Repositories.Interfaces;
 using Service.Services.Interfaces;
@@ -27,9 +28,9 @@ namespace Service.Services
             _studentRepo.Delete(student);
         }
 
-        public void Edit(Student student)
+        public void Edit(int id,Student student)
         {
-            // throw new NotImplementedException();
+            _studentRepo.Edit( id, student);
         }
 
         public List<Student> GetAll()
@@ -47,9 +48,9 @@ namespace Service.Services
             return _studentRepo.Search(fullName);
         }
 
-        public List<Student> Sort(int age)
+        public List<Student> Sort()
         {
-            return _studentRepo.Sort(age);
+            return _studentRepo.Sort();
         }
     }
 }

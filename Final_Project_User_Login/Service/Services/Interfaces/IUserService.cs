@@ -9,7 +9,7 @@ namespace Service.Services.Interfaces
 {
     public interface IUserService
     {
-        void SignUp(string name, string surname, string email, int age, string password, string confrimpassword);
-        List<User> LoginIn(string name, string surname, string email, int age, string password);
+        void SignUp(string name, string surname, string email, int age, string password, string confrimPassword);
+        List<User> LoginIn(string email, string password);
     }
 }

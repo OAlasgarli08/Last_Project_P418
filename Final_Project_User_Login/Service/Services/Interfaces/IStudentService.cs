@@ -14,7 +14,7 @@ namespace Service.Services.Interfaces
         Student GetById(int id);
         List<Student> GetAll();
         Student Search(string fullName);
-        List<Student> Sort(int age);
-        void Edit(Student student);
+        List<Student> Sort();
+        void Edit(int id, Student student);
     }
 }

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Omarta\\.nuget\\packages\\": {}
+    "C:\\Users\\alasg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\alasg\\OneDrive\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Omarta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Omarta\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\alasg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alasg\\OneDrive\\Desktop\\Last_Project_P418\\Final_Project_User_Login\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Omarta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alasg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,12 +56,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -10,6 +10,8 @@ namespace Repository.Repositories.Interfaces
     public interface IStudentRepository : IBaseRepositroy<Student>
     {
         Student Search(string fullName);
-        List<Student> Sort(int age);
+        List<Student> Sort();
+
+        void Edit(int id,Student student);
     }
 }
